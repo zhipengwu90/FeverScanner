@@ -1,0 +1,19 @@
+import time, os
+
+seconds_to_go_for = 10 # How long the timer will go for
+current_time = int(time.time()) # Gets the time before the timer starts
+
+def clear():
+  if os.name == "nt":
+    os.system("cls") # Clear function, to avoid spam. Source: geeksforgeeks.org
+  else:
+    os.system("clear")
+
+while True:
+  time_now = int(time.time()) # Gets time during the timer's running
+  if time_now >= current_time + seconds_to_go_for: # Checks if enough time has passed
+    break # Stops loop if so
+  
+  print(f"Seconds passed: {time_now - current_time}") # Prints how much time has passed
+  clear()
+print("The timer has ended") 
