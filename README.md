@@ -1,5 +1,15 @@
+# About this project
+
+This is ITAS 164 - IT Project Management group project. This project is to create a fever scanner to monitor the users' body temperature. The users will scan their NFC tags to identify their IDs, then trigger the thermal imaging camera to start taking the body temperature
+
+Group number:
+* Milad Fotoohnejad
+* Miku Croft
+* Zhipeng
+
+
 # FeverScanner
-A python script for an MLX90640/MLX90641 thermal imaging camera on the Raspberry Pi. This project is to create a fever scanner to monitor the users' body temperature. The users will scan their NFC tags to identify their IDs, then trigger the thermal imaging camera to start taking the body temperature.
+A python script for an MLX90640/MLX90641 thermal imaging camera on the Raspberry Pi. .
 
 
 # Requirements
