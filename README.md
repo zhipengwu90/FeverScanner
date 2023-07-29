@@ -5,7 +5,7 @@ This is ITAS 164 - IT Project Management group project. This project is to creat
 Group number:
 * Milad Fotoohnejad
 * Miku Croft
-* Zhipeng
+* Zhipeng Wu
 
 
 # FeverScanner
@@ -18,6 +18,14 @@ There are a few libraries that this project requires:
 * RPI.GPIO, adafruit-blinka, adafruit-circuitpython-mlx90640 through pip
 * Raspberry Pi
 * NFC reader
+
+# Product Pictures
+
+<div style="display: flex;">
+  <img src="https://github.com/zhipengwu90/FeverScanner/blob/main/gitImg/Finalproduct1.jpg" width="330">
+  <img src="https://github.com/zhipengwu90/FeverScanner/blob/main/gitImg/Finalproduct4.jpg" width="330">
+</div>
+
 
 # How to run it
 * Start run.sh script on the Raspberry Pi. The script will monitor if the main progrom is running. Once the main progrom complete taking one person's body temperature, the main program will clear the information then exit by itself. The run.sh script will restart the main progrom.
